@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+/* Customizando todas as tags HTML(html *) famoso reset CSS */
+html *{
+    /* Margem */
+    margin: 0;
+}
+
+/* Personalizando Body */
+body{
+    /* Imagem */
+    /*background-image: url(https://url.gratis/EcDFhO);*/
+    background-image: url(https://url.gratis/OcFyWN);
+    /* Colocando cor de fundo */
+    background-color: white;
+    /* Remover repetição do backgound */
+    /* background-repeat: space; */
+    /* Posicionamento da imagem */
+    background-position: center;
+    /* Altura do body */
+    height: 100vh;
+}
+
+/* Configurando tamanho das divisões das partes principais da tela */
+#top{
+    height: 15vh;
+    background-color:#0000009c;
+    font-family: 'Pangolin', cursive;
+    color:white;
+}
+
+h1 {
+        /* Aliando centro */
+        text-align: center;
+}
+
+#conteudo{
+    background-color: #3333339c;
+    line-height: 6vh;
+}
+
+#conteudo p {
+    font-family: 'Pangolin', cursive;
+}
+
+#bot{
+    background-color: #6666669c;
+}
+
+/* Configurando os icones da página */
+.icones{
+    height: 75px;
+    width: 75px;
+    padding: 2px 50px 0px 50px;
+}
+
+#video{
+    position: relative;
+    margin-left: 30%;
+}
